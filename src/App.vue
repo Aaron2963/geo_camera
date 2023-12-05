@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav>
       <RouterLink to="/">Album</RouterLink>
       <RouterLink to="/camera">Camera</RouterLink>
-      <!-- <RouterLink to="/stream">Stream</RouterLink> -->
+      <RouterLink to="/stream">Stream</RouterLink>
     </nav>
   </header>
 
