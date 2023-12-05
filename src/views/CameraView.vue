@@ -6,7 +6,7 @@
     </div>
     <form ref="form" @submit.prevent="submit">
       <div>Current position: ({{ latitude }}, {{ longitude }})</div>
-      <input ref="file" name="file" type="file" accept="image/*;capture=camera" @change="loadImage">
+      <input ref="file" name="file" type="file" accept="image/*" capture @change="loadImage">
       <input type="hidden" name="latitude" :value="latitude">
       <input type="hidden" name="longitude" :value="longitude">
       <div class="form-field">
@@ -85,13 +85,6 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-.container {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #preview {
   width: 400px;
   max-width: 100%;

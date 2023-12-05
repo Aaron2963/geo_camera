@@ -56,13 +56,6 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-.container {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
