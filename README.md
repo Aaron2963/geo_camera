@@ -1,14 +1,13 @@
 # geo_camera
 
-This template should help get you started developing with Vue 3 in Vite.
+Demo Site: https://geocamera2023.web.app/
 
-## Recommended IDE Setup
+This is a simple app which implementing:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)/[Dexie.js](https://dexie.org/): User-End Database, can be used offline, and store any type of data, even binary data
+- [GeoLocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API): Get user's current location
+- [ImageCapture API](https://developer.mozilla.org/en-US/docs/Web/API/ImageCapture): Take photo with device camera
+- [Media Capture and Streams API](https://developer.mozilla.org/zh-CN/docs/Web/API/Media_Capture_and_Streams_API): Stream video from device camera, and capture a frame from the stream
 
 ## Project Setup
 

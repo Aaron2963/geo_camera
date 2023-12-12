@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Stream</h1>
+    <h1>STREAM</h1>
     <div>Current position: ({{ latitude }}, {{ longitude }})</div>
     <div v-show="captureMode">
       <camera ref="cam" :resolution="{ width: 600, height: 600 }" autoplay />
